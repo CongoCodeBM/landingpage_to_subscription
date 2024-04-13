@@ -4,9 +4,15 @@ body, html{
 	font-family: 'Montserrat', sans-serif;
 	background: url("assets/images/beniscontactcard.jpg") no-repeat center center fixed; 
 	  -webkit-background-size: cover;
+	  -webkit-background-position: center;
 	  -moz-background-size: cover;
+	  -moz-background-position: center;
 	  -o-background-size: cover;
+	  -o-background-position: center;
 	  background-size: cover;
+	  background-color: #e39062;
+	  overflow-x: hidden;
+    overflow-y: auto;
 }
 
 h1 {
@@ -24,7 +30,7 @@ hr {
 }
 
 .buffer {
-	height: 15rem;
+	height: 10rem;
 }
 
 .btn {
